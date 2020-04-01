@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:text="0"
+        android:gravity="right|bottom"
+        android:textSize="60sp" />
+    <RelativeLayout
+        android:id="@+id/rl3"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_below="@+id/tv">
+        <Button
+            android:id="@+id/bt31"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:text="CE"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/bt32"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt31"
+            android:text="C"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/bt33"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt32"
+            android:text="BS"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/bt34"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt33"
+            android:text="/"
+            android:textSize="30sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl4"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_below="@+id/rl3">
+        <Button
+            android:id="@+id/bt41"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:text="7"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt42"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt41"
+            android:text="8"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt43"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt42"
+            android:text="9"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt44"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt43"
+            android:text="X"
+            android:textSize="35sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl5"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_below="@+id/rl4">
+        <Button
+            android:id="@+id/bt51"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt52"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt51"
+            android:text="5"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt53"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt52"
+            android:text="6"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt54"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt53"
+            android:text="-"
+            android:textSize="50sp"
+            android:gravity="center"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl6"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_below="@+id/rl5">
+        <Button
+            android:id="@+id/bt61"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt62"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt61"
+            android:text="2"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt63"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt62"
+            android:text="3"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt64"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt63"
+            android:text="+"
+            android:textSize="35sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl6">
+        <Button
+            android:id="@+id/bt71"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:text="+/-"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/bt72"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt71"
+            android:text="0"
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt73"
+            android:layout_width="102dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt72"
+            android:text="."
+            android:textSize="35sp"/>
+        <Button
+            android:id="@+id/bt74"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/bt73"
+            android:text="="
+            android:textSize="35sp"
+            android:background="#ff0"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
